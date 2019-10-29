@@ -1,7 +1,7 @@
 # AKAN NAMES
 
 ## Description
-Akan name generators are used to show your name based on the day you were born.
+Akan name generators are used to show your name based on the day you were born.Many people around the world use this generator to find their Ghananian name,and about 70% dont even speak the language.
 
 ## Resources
 Chrome,github,lms and vscode.

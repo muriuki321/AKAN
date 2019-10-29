@@ -1,18 +1,18 @@
-var akanCalculator = function() {
+var Calculator = function() {
   var date = parseInt(
-    document.getElementById("akanForm").elements.namedItem("dateOfBirth").value
+    document.getElementById("Form").elements.namedItem("date").value
   );
   var month = parseInt(
-    document.getElementById("akanForm").elements.namedItem("monthOfBirth").value
+    document.getElementById("Form").elements.namedItem("month").value
   );
   var year = parseInt(
-    document.getElementById("akanForm").elements.namedItem("year").value
+    document.getElementById("Form").elements.namedItem("year").value
   );
-  var gender = document.getElementById("akanForm").elements.namedItem("gender")
+  var gender = document.getElementById("Form").elements.namedItem("gender")
     .value;
   var dateOfBirth = new Date(year + "/" + month + "/" + date);
   var weekDay = dateOfBirth.getDay();
-  //   verification
+  
 
   if (month < 1 || month > 12 || (month == 2 && date > 29)) {
     return (document.getElementById("alert2").innerHTML =

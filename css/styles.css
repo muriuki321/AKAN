@@ -7,5 +7,6 @@ body{
     text-justify: auto;
     margin: 20px;
     backface-visibility: inherit;
+    list-style: inherit;
 
 }

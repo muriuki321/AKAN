@@ -9,5 +9,6 @@ body{
     backface-visibility: inherit;
     list-style: inherit;
     text-decoration-color: khaki;
+    visibility: inherit;
 
 }

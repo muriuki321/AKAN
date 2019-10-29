@@ -9,4 +9,5 @@ Chrome,github,lms and vscode.
 ## name
 DENNIS MURIUKI
 
-
+## info
+My name should be Kofi becuase i was born on a Friday and im a male

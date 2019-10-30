@@ -16,7 +16,7 @@ var Calculator = function() {
 
   if (month < 1 || month > 12 || (month == 2 && date > 29)) {
     return (document.getElementById("alert2").innerHTML =
-      "Invalid Month ,Please Try Again");
+      "Invalid  Month ,Please Try Again");
   } else if (date < 1 || date > 31) {
     return (document.getElementById("alert2").innerHTML =
       "Invalid Date ,Please Try Again");
